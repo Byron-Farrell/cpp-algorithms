@@ -13,7 +13,7 @@ public:
     
     void prepend(int value);
     void append(int value);
-    void insert(size_t index);
+    void insert(int value, size_t index, Node *n = nullptr);
     void remove(size_t index, Node *n = nullptr);
     int at(size_t index, Node *n = nullptr);
 

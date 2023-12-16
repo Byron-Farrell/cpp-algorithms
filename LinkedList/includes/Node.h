@@ -11,9 +11,9 @@ public:
     Node* get_next() { return next; };
     int get_value() { return value; };
     
-    void set_value(int value) { value = value; };
-    void set_next(Node *next) { next = next; };
-    void set_previous(Node *previous) { previous = previous; };
+    void set_value(int value) { this->value = value; };
+    void set_next(Node *next) { this->next = next; };
+    void set_previous(Node *previous) { this->previous = previous; };
 
 private:
     int value;

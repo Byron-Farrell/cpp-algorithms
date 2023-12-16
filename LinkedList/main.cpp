@@ -1,20 +1,13 @@
 #include "includes/LinkedList.h"
-#include <iostream>
-#include <vector>
-#include "includes/Node.h"
 
 
 int main() {
-    LinkedList nums {};
+    LinkedList linked_list {};
 
-    nums.prepend(50);
-    nums.prepend(500);
-    nums.prepend(88);
-
-
-    nums.display();
-
-    std::cout << nums.at(4) << std::endl;
+    linked_list.append(200);
+    linked_list.prepend(25);
+    linked_list.insert(100, 1);
+    linked_list.display();
 
     return 0;
 }

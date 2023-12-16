@@ -27,6 +27,8 @@ void LinkedList::prepend(int value) {
     }
     
     start = new_node;
+
+    increment_size();
 }
 
 void LinkedList::append(int value) {
@@ -39,25 +41,51 @@ void LinkedList::append(int value) {
     if (start == nullptr) {
         start = new_node;
     }
-     
-    end = new_node;    
+    
+    this->end = new_node;
+
+    increment_size();
 }
 
-// void insert(size_t index, Node *n) {
-//     if (n == nullptr) {
-//         n = start;
-//     }
+void LinkedList::insert(int value, size_t index, Node *n) {
+    
+    if (index >= size) {
+        append(value);
+        return;
+    }
 
-//     if (index == 0) {
-//         return n->get_value();
-//     }
+    if (n == nullptr) {
+        n = start;
+    }
 
-//     return at(index - 1, n->get_next());
-// }
+    if (index == 0) {
+        Node *node_before_new_node = n->get_previous();
+        Node *new_node = new Node { value, node_before_new_node, n };
+        
+        n->set_previous(new_node);
+
+        if (node_before_new_node != nullptr) {
+            node_before_new_node->set_next(new_node);
+        }
+        else {
+            start = new_node;
+        }
+        
+        increment_size();
+        
+        return;
+    }
+
+    return insert(value, index - 1, n->get_next());
+}
 
 void LinkedList::display() {
     Node *current_node = start;
     
+    if (size == 0) {
+        std::cout << "Linked list is empty." << std::endl;
+        return;
+    }
     std::cout << "nullptr <- ";
     while (current_node != nullptr) {
         if (current_node->get_next() == nullptr) {
@@ -73,6 +101,11 @@ void LinkedList::display() {
 }
 
 int LinkedList::at(size_t index, Node *n) {
+
+    // TODO: Add exception handling for empty list.
+    if (index >= size) {
+        return end->get_value();
+    }
 
     if (n == nullptr) {
         n = start;
