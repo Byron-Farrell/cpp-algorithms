@@ -1,0 +1,24 @@
+#ifndef _NODE_H_
+#define _NODE_H_
+
+class Node {
+
+public:
+    
+    Node(int value, Node *previous = nullptr, Node *next = nullptr);
+
+    Node* get_previous() { return previous; };
+    Node* get_next() { return next; };
+    int get_value() { return value; };
+    
+    void set_value(int value) { value = value; };
+    void set_next(Node *next) { next = next; };
+    void set_previous(Node *previous) { previous = previous; };
+
+private:
+    int value;
+    Node *previous;
+    Node *next;
+};
+
+#endif
