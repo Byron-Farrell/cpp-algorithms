@@ -79,7 +79,7 @@ void LinkedList::insert(int value, size_t index, Node *n) {
     return insert(value, index - 1, n->get_next());
 }
 
-void LinkedList::display() {
+void LinkedList::display() const {
     Node *current_node = start;
     
     if (size == 0) {
@@ -97,10 +97,11 @@ void LinkedList::display() {
         current_node = current_node->get_next();
         
     }
+    
     std::cout << "nullptr" << std::endl;
 }
 
-int LinkedList::at(size_t index, Node *n) {
+int LinkedList::at(size_t index, Node *n) const {
 
     // TODO: Add exception handling for empty list.
     if (index >= size) {

@@ -15,9 +15,8 @@ public:
     void append(int value);
     void insert(int value, size_t index, Node *n = nullptr);
     void remove(size_t index, Node *n = nullptr);
-    int at(size_t index, Node *n = nullptr);
-
-    void display();
+    int at(size_t index, Node *n = nullptr) const;
+    void display() const;
 
 private:
     Node *start;
