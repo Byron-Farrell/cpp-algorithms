@@ -4,6 +4,10 @@ One of the biggest downsides to C++ arrays is they have to be assigned a size wh
 
 Income linked lists to the rescue. Linked lists can dynamically add new nodes (*you can think of a node in a linked list as a element in an array*) and don't rewrite the nodes to a new memory block when a node is inserted of deleted.
 
+**Array vs Linked List**
+|Array| Linked List |
+| --- | --- |
+| test| test1|
 First lets have a look at how a linked list adds a new node.
 
 1: When initialize the linked list two pointers to a node will be created and initialized to a `nullptr`. Start will be point to the first node in the linked list and end will point to the last node in the linked list.
