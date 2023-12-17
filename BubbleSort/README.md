@@ -2,7 +2,7 @@
 Bubble sort is a simple sorting algorithm that iterates through an array and one by one checks if the next element in the array is larger than the next element in the list. If the next element is larger than the current element they are swapped.
 
 
-### Explanation
+## Explanation
 
 Lets look at an example using the following array of integers 
 `int unsorted_array[3] = [3, 2, 1]`
@@ -64,11 +64,11 @@ next index value: `3`
 
 ---
 
-Finally we loop through the array again and because it is already sorted now values will be swapped. We can use this as an identifier to tell us that the array has been sorted and we can exit out of the loop.
+Finally, we loop through the array again and because it is already sorted now values will be swapped. We can use this as an identifier to tell us that the array has been sorted and we can exit out of the loop.
 
 `swapped == false -> exit the loop`
 
-### Code Example
+## Code Example
 
 ```c++
 #include "bubble_sort.h"
