@@ -1,19 +1,19 @@
 # Linked List
 
-One of the biggest downsides to C++ arrays is they have to be assigned a size when they are initialized. This means you have to know the exact size of the array you want to create. Assigning a size to an array might not be possible if you need the array to dynamically increase in size during runtime. You could create a massive array but this would be a waste of memory if the only 10% of the array is being used. Vectors solve this issue but each time you add an element to the vector it allocates a new contiguous block of memory, inserts the new vector into this memory block and frees up the previous memory block. This causes a lot of overhead if you are inserting and deleting elements in the vector.
+One of the biggest downsides to C++ arrays is they have to be assigned a size when they are initialized. This means you have to know the exact size of the array you want to create. Assigning a size to an array might not be possible if you need the array to dynamically increase in size during runtime. You could create a massive array but this would be a waste of memory if only 10% of the array is being used. Vectors solve this issue but each time you add an element to the vector it allocates a new contiguous block of memory, inserts the new vector into this memory block and frees up the previous memory block. This causes a lot of overhead if you are inserting and deleting elements in the vector.
 
-Income linked lists to the rescue. Linked lists can dynamically add new nodes (*you can think of a node in a linked list as a element in an array*) and don't rewrite the nodes to a new memory block when a node is inserted of deleted.
+In come linked lists to the rescue. Linked lists can dynamically add new nodes (*you can think of a node in a linked list as an element in an array*) and don't rewrite the nodes to a new memory block when a node is inserted or deleted.
 
 **Array vs Linked List**
 | Array | Linked List |
 | ----- | ----------- |
 | test  | test1       |
 
-First lets have a look at how a linked list adds a new node.
+First, let's have a look at how a linked list adds a new node.
 
-1: When initialize the linked list two pointers to a node will be created and initialized to a `nullptr`. Start will be point to the first node in the linked list and end will point to the last node in the linked list.
+1: When initializing the linked list, two pointers to a node will be created and initialized to a `nullptr`.The `start` pointer variable will point to the first node in the linked list and the `end` pointer variable will point to the last node in the linked list.
 
-Lets create a empty linked list.
+Let's create an empty linked list.
 
 ```c++
 #include "includes/LinkedList.h"
@@ -26,9 +26,9 @@ int main() {
 }
 ```
 
-We now have an empty linked list. Inside the `LinkedList` object are to member variables `start` and `end`. Right now they are both pointing to `nullptr`.
+We now have an empty linked list. Inside the `LinkedList` object are two member variables `start` and `end`. Right now they are both pointing to `nullptr`.
 
-2: Lets add a node to the end of the list.
+2: Let's add a node to the end of the list.
 
 ```c++
 #include "includes/LinkedList.h"
@@ -46,7 +46,7 @@ int main() {
 
 the `LinkedList` object member variables `start` and `end` will not both be pointing to the node that contains the value 200.
 
-lets have a look what the linked list looks like.
+let's have a look at what the linked list looks like.
 
 ```c++
 linked_list.display();
