@@ -1,4 +1,4 @@
 # C++ Algorithms
 
-## Data Structures
+### Data Structures
 - [Linked List](LinkedList/README.md)
