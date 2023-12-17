@@ -2,12 +2,27 @@
 
 One of the biggest downsides to C++ arrays is they have to be assigned a size when they are initialized. This means you have to know the exact size of the array you want to create. Assigning a size to an array might not be possible if you need the array to dynamically increase in size during runtime. You could create a massive array but this would be a waste of memory if only 10% of the array is being used. Vectors solve this issue but each time you add an element to the vector it allocates a new contiguous block of memory, inserts the new vector into this memory block and frees up the previous memory block. This causes a lot of overhead if you are inserting and deleting elements in the vector.
 
-In come linked lists to the rescue. Linked lists can dynamically add new nodes (*you can think of a node in a linked list as an element in an array*) and don't rewrite the nodes to a new memory block when a node is inserted or deleted.
+In comes linked lists to the rescue. Linked lists can dynamically add new nodes (*you can think of a node in a linked list as an element in an array*) and don't rewrite the nodes to a new memory block when a node is inserted or deleted.
 
-**Array vs Linked List**
-| Array | Linked List |
-| ----- | ----------- |
-| test  | test1       |
+**Array vs LinkedList**
+| Array                                                                     | Linked List                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Fixed Size                                                                | Dynamic size                                                              |
+| Size calculated during compile time                                       | Size can be dynamically increased during run time                         |
+| Uses less memory space                                                    | uses more memory space                                                    |
+| Stored in contiguous memory block                                         | Not stored in contiguous memory block                                     |
+| Elements can be accessed easily                                           | Linked list has to be traversed to get node `O(n)`                        |
+
+**std::vector vs LinkedList**
+| std::vector                                                               | Linked List                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Uses less memory space                                                    | uses more memory space                                                    |
+| Stored in contiguous memory block                                         | Not stored in contiguous memory block                                     |
+| Elements can be accessed easily                                           | Linked list has to be traversed to get node `O(n)`                        |
+| Inserts require a new contiguous block of memory to be allocated          | Inserts don't require memory reallocation. New nodes created in the heap  |  
+
+
+## Code Example
 
 First, let's have a look at how a linked list adds a new node.
 
@@ -44,7 +59,7 @@ int main() {
 }
 ```
 
-the `LinkedList` object member variables `start` and `end` will not both be pointing to the node that contains the value 200.
+the `LinkedList` object member variables `start` and `end` will now both be pointing to the node that contains the value 200.
 
 let's have a look at what the linked list looks like.
 
