@@ -8,6 +8,7 @@ Income linked lists to the rescue. Linked lists can dynamically add new nodes (*
 |Array| Linked List |
 | --- | --- |
 | test| test1|
+
 First lets have a look at how a linked list adds a new node.
 
 1: When initialize the linked list two pointers to a node will be created and initialized to a `nullptr`. Start will be point to the first node in the linked list and end will point to the last node in the linked list.
