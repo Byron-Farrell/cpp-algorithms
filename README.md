@@ -8,4 +8,8 @@
 - Heap Sort
 ### Data Structures
 - [Queue](Queue/README.md)
+- Stack
+- Heap
+- Hash Table
+- Tree
 - [Linked List](LinkedList/README.md)
