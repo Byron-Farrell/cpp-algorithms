@@ -55,25 +55,23 @@ The end of the array is reached and the program terminates. the array is now sor
 ## Code Example
 
 ```c++
-#include <iostream>
-#include "insertion_sort.h"
+void insertion_sort(int *array, size_t size) {
+    for (size_t i = 0; i < size - 1; i++) {
+        if (array[i] > array[i + 1]) {
+            int temp = array[i];
+            array[i] = array[i + 1];
+            array[i + 1] = temp;
 
-
-int main() {
-    size_t size = 4;
-    int nums[size] {5, 4, 2, 10};
-
-    insertion_sort(nums, size);
-
-    // Print sorted array
-    std::cout << "[ ";
-    for (int &num: nums) {
-        std::cout << num << " ";
+            for (size_t j = i; j > 0; j--) {
+                if (array[j - 1] > array[j]) {
+                    int temp = array[j];
+                    array[j] = array[j - 1];
+                    array[j - 1] = temp;
+                }
+            }
+        }
     }
-    std::cout << "]"<<  std::endl;
-
-    return 0;
-}
+} 
 ```
 
 ## Time Complexity
