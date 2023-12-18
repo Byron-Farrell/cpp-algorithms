@@ -11,6 +11,9 @@
 - Binary Search
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
+- Kruskal’s Algorithm
+- Floyd Warshall Algorithm
+- Dijkstra’s Algorithm
 ### Data Structures
 - [Queue](Queue/README.md)
 - Stack
@@ -18,3 +21,5 @@
 - Hash Table
 - Tree
 - [Linked List](LinkedList/README.md)
+
+https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b
