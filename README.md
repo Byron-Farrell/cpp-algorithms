@@ -8,9 +8,9 @@
 - Heap Sort
 - Merge Sort
 - Quicksort
-- Binary Search Algorithm
-- Breadth First Search (BFS) Algorithm
-- Depth First Search (DFS) Algorithm
+- Binary Search
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
 ### Data Structures
 - [Queue](Queue/README.md)
 - Stack
