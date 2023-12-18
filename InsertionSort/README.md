@@ -50,7 +50,7 @@ Now we loop backwards.
 
 `5 > 10` is false so we move on.
 
-The end of the array is reach and the program terminates. the array is now sorted.
+The end of the array is reached and the program terminates. the array is now sorted.
 
 ## Code Example
 
