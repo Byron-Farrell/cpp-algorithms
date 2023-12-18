@@ -88,5 +88,5 @@ The bubble sort algorithm will sort the array.
 
 `-10, 20, 30, -40, -50` -> `[-50, -40, -10, 20, 30]`
 
-### Time Complexity
+## Time Complexity
 O(n^2) where is the size of the array
