@@ -1,11 +1,13 @@
 # Insertion Sort
-Insertion sort is a sorting algorithm that iterates over an array if length n. The algorithm checks compares the current elements value in the array with the next elements value. In the case of a ascending array it will check if the current element is greater than next element. If it is then it will swap the values then the iterate back to the beginning of the array until the left side of the array from the current index is sorted.
+Insertion sort is a sorting algorithm that iterates over an array of length n. The algorithm checks and compares the current element value in the array with the next element value. In the case of an ascending array, it will check if the current element is greater than the next element. If it is then it will swap the values and then iterate back to the beginning of the array until the left side of the array from the current index is sorted.
 
 ## Explanation
 
-Lets use an example using the following array
+Let's use an example using the following array
 | 5 | 4 | 2 | 10 |
 | - | - | - | -- |
+
+---
 
 1: On the first pass we will compare index *0* with index *1*. 
  
@@ -16,6 +18,8 @@ Lets use an example using the following array
 
 | `4` | `5` | 2 | 10 |
 | --- | --- | - | -- |
+
+---
 
 2: The second pass will compare index *1* with index *2*. 
 
@@ -36,6 +40,8 @@ Now we loop backwards.
 
 | `2` | `4` | 5 | 10 |
 | --- | --- | - | -- |
+
+---
 
 3: The third pass will go back to the unsorted section of the array and compare index *2* with index *3* 
 
