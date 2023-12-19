@@ -17,10 +17,11 @@
 ### Data Structures
 - [Queue](Queue/README.md)
 - [Stack](Stack/README.md)
+- [Linked List](LinkedList/README.md)
 - Heap
 - Hash Table
-- Tree
+- Trees
   - Binary Tree
-- [Linked List](LinkedList/README.md)
+
 
 https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b
