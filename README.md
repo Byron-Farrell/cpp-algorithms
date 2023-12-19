@@ -16,7 +16,7 @@
 - Dijkstra’s Algorithm
 ### Data Structures
 - [Queue](Queue/README.md)
-- Stack
+- [Stack](Stack/README.md)
 - Heap
 - Hash Table
 - Tree
