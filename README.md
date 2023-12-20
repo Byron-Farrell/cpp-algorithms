@@ -18,10 +18,10 @@
 - [Queue](Queue/README.md)
 - [Stack](Stack/README.md)
 - [Linked List](LinkedList/README.md)
+- [Binary Tree](BinaryTree/README.md)
 - Heap
 - Hash Table
-- Trees
-  - Binary Tree
+
 
 
 https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b
