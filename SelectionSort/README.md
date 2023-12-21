@@ -3,8 +3,8 @@
 The selection sort algorithm will iterate through an array and divide it into 2 sections; sorted and unsorted.
 The first pass of the algorithm will find the lowest value in the array by iterating to the end of the array.
 It will then swap the current value at index 0 with the smallest value index.
-Index 0 will now be considered sorted. We repeated this process again on the unsorted array.
-With each iteration the size of n will be decreased by 1.
+Index 0 will now be considered sorted. We repeated this process on the unsorted array.
+With each iteration, the size of n will be decreased by 1.
 
 ## Explanation
 
@@ -103,4 +103,4 @@ void selection_sort(int *unsorted_array, size_t size) {
 ```
 
 ## Time Complexity
-O(n<sup>2</sup>) where n is the size of teh array.
+O(n<sup>2</sup>) where n is the size of the array.
