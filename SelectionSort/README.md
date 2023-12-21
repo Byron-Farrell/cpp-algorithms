@@ -35,6 +35,8 @@ the array from index 0 to i is now considered sorted.
 | 25 | 12 | 22 | 64 |
 |----|----|----|----|
 
+---
+
 **Second iteration:** repeat the process in the first iteration on the unsorted array.
 The smallest value in the unsorted array is 12, so we swapped index i (which in this case is 1)
 
@@ -55,6 +57,8 @@ the array from index 0 to i is now considered sorted.
 | 25 | 22 | 64 |
 |----|----|----|
 
+---
+
 **Third iteration:** The smallest value in the unsorted array is now 22.
 
 `25 and 22 swapped`
@@ -73,6 +77,8 @@ the array from index 0 to i is now considered sorted.
 
 | 25 | 64 |
 |----|----|
+
+---
 
 **Forth iteration:** The end of the array has been reached and is now sorted
 
