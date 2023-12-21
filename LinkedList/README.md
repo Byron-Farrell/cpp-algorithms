@@ -119,7 +119,7 @@ Lets have a look at a visual representation of the linked list. The blue boxes r
 
 ![Linked List Diagram](images/linked_list_diagram.png?raw=true "Linked List")
 
-In conclusion you can see that linked lists can dynamically add nodes by creating a new node in the heap and pointing to it.
+In conclusion, you can see that linked lists can dynamically add nodes by creating a new node in the heap and pointing to it.
 
 ## Methods
 

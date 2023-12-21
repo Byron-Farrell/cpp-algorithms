@@ -95,4 +95,4 @@ int main() {
 ```
 
 ## Time Complexity
-O(n^2) where is the size of the array
+O(n<sup>2</sup>) where is the size of the array
