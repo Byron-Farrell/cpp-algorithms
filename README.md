@@ -2,8 +2,8 @@
 
 ### Algorithms
 - [Bubble Sort](BubbleSort/README.md)
-- [Insertion Sort](InsertionSort/README.md) 
-- Selection Sort
+- [Insertion Sort](InsertionSort/README.md)
+- [Selection Sort](SelectionSort/README.md) 
 - Counting Sort
 - Heap Sort
 - Merge Sort
