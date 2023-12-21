@@ -5,9 +5,9 @@
 - [Insertion Sort](InsertionSort/README.md)
 - [Selection Sort](SelectionSort/README.md) 
 - Counting Sort
-- Heap Sort
 - Merge Sort
 - Quicksort
+- Heap Sort
 - Binary Search
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
