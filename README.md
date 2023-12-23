@@ -6,7 +6,7 @@
 - [Selection Sort](SelectionSort/README.md) 
 - Counting Sort
 - Merge Sort
-- [Quicksort](Quicksort/README.md) 
+- [Quick Sort](QuickSort/README.md) 
 - Heap Sort
 - Binary Search
 - Breadth First Search (BFS)
