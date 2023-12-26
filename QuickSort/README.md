@@ -1,6 +1,8 @@
 # Quick Sort
 Quick sort is an algorithm used to quickly sort an array of elements by using a divide conquer strategy.
 
+WIP
+
 ## Explanation
 
 A pivot is selected and all elements to smaller than the pivot are moved to the start of the array
