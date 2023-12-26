@@ -1,13 +1,11 @@
 # Quick Sort
-Quick sort is an algorithm used to quickly sort an array of elements by using a divide conquer strategy.
-
-WIP
+Quick sort is an algorithm used to quickly sort an array of elements by using a divide and conquer strategy.
 
 ## Explanation
 
-A pivot is selected and all elements to smaller than the pivot are moved to the start of the array
+A pivot is selected and all elements smaller than the pivot are moved to the start of the array
 and all elements greater than the pivot are moved to the other end of the array. The array is then split 
-into to sub arrays and the process repeats. This process repeats recursively until the array is sorted.
+into sub-arrays and the process repeats. This process repeats recursively until the array is sorted.
 
 
 | 4 | 3 | 2 | 1 |
@@ -60,11 +58,11 @@ into to sub arrays and the process repeats. This process repeats recursively unt
 
 ---
 
-### No elements left of array so skip
+### No elements left of the array so skip
 
 ---
 
-### Sort elements to the right of pivot
+### Sort elements to the right of the pivot
 
 ---
 
@@ -76,7 +74,7 @@ into to sub arrays and the process repeats. This process repeats recursively unt
 
 `3 < 4 = true`
 
-*Swap current index with pivot. Since pivot is zero we do nothing*
+*Swap current index with pivot. Since the pivot is zero we do nothing*
 
 ---
 
