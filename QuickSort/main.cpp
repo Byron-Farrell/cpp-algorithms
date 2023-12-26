@@ -3,14 +3,10 @@
 
 
 int main() {
-    int size {8};
-    int array[size] {8, 7, 6, 5, 4, 3, 2, 1};
-
+    int size {4};
+    int array[size] {4, 3, 3, 1};
 
     quick_sort(array, size);
-
-    int a[3] {2, 1, 3};
-//    quick_sort(a, 3);
 
     std::cout << "[ ";
     for (int i = 0; i < size; i++) {

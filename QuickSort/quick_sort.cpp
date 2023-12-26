@@ -1,7 +1,3 @@
-#include <iostream>
-
-int count = 0;
-
 void quick_sort(int *array, int size) {
 
     if (size <= 1) {
@@ -11,7 +7,6 @@ void quick_sort(int *array, int size) {
     int pivot = 0;
 
     for (int i = 0; i < size - 1; i++) {
-        count++;
         if (array[i] < array[size - 1]) {
             if (i != 0) {
                 int temp = array[i];
@@ -36,5 +31,4 @@ void quick_sort(int *array, int size) {
         quick_sort(array, pivot);
         quick_sort(array + pivot + 1, size - pivot - 1);
     }
-    std::cout << count << std::endl;
 }
