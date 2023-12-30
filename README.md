@@ -5,7 +5,7 @@
 - [Insertion Sort](InsertionSort/README.md)
 - [Selection Sort](SelectionSort/README.md) 
 - Counting Sort
-- Merge Sort
+- [Merge Sort](MergeSort/README.md) 
 - [Quick Sort](QuickSort/README.md) 
 - Heap Sort
 - Binary Search
