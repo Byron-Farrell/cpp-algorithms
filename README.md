@@ -1,7 +1,7 @@
 # C++ Algorithms and Data Structures
 
 ### Algorithms
-- [Bubble Sort](BubbleSort/README.md)
+- [Bubble Sort](BubbleSort)
 - [Insertion Sort](InsertionSort/README.md)
 - [Selection Sort](SelectionSort/README.md) 
 - [Counting Sort](CountingSort/README.md) 
