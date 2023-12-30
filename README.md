@@ -4,7 +4,7 @@
 - [Bubble Sort](BubbleSort/README.md)
 - [Insertion Sort](InsertionSort/README.md)
 - [Selection Sort](SelectionSort/README.md) 
-- Counting Sort
+- [Counting Sort](CountingSort/README.md) 
 - [Merge Sort](MergeSort/README.md) 
 - [Quick Sort](QuickSort/README.md) 
 - Heap Sort
