@@ -2,11 +2,11 @@
 
 ### Algorithms
 - [Bubble Sort](BubbleSort)
-- [Insertion Sort](InsertionSort/README.md)
-- [Selection Sort](SelectionSort/README.md) 
-- [Counting Sort](CountingSort/README.md) 
-- [Merge Sort](MergeSort/README.md) 
-- [Quick Sort](QuickSort/README.md) 
+- [Insertion Sort](InsertionSort)
+- [Selection Sort](SelectionSort) 
+- [Counting Sort](CountingSort) 
+- [Merge Sort](MergeSort) 
+- [Quick Sort](QuickSort) 
 - Heap Sort
 - Binary Search
 - Breadth First Search (BFS)
@@ -16,10 +16,10 @@
 - Dijkstra’s Algorithm
   
 ### Data Structures
-- [Queue](Queue/README.md)
-- [Stack](Stack/README.md)
-- [Linked List](LinkedList/README.md)
-- [Binary Tree](BinaryTree/README.md)
+- [Queue](Queue)
+- [Stack](Stack)
+- [Linked List](LinkedList)
+- [Binary Tree](BinaryTree)
 - Heap
 - Hash Table
 
