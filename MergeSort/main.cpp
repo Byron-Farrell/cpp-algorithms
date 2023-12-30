@@ -21,5 +21,7 @@ int main() {
     }
     std::cout << "]" << std::endl;
 
+    delete [] sorted_array;
+
     return 0;
 }
