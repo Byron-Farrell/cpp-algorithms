@@ -1,8 +1,8 @@
 # Merge Sort
 
-# Explanation
+## Explanation
 
-# Code Example
+## Code Example
 ```c++
 int* merge_sort(int *array, size_t size) {
 
@@ -59,5 +59,5 @@ int* merge_sort(int *array, size_t size) {
 }
 ```
 
-# Time Complexity
+## Time Complexity
 O(N * log<sub>2</sub>N)
