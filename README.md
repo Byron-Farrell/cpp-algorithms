@@ -8,7 +8,7 @@
 - [Merge Sort](MergeSort) 
 - [Quick Sort](QuickSort) 
 - Heap Sort
-- Binary Search
+- [Binary Search](BinarySearch) 
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
 - Kruskal’s Algorithm
