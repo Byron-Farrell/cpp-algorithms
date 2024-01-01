@@ -1,8 +1,8 @@
 # Counting Sort
 
-# Explanation
+## Explanation
 
-# Code Example
+## Code Example
 ```c++
 void counting_sort(int *array, size_t size) {
     int max {array[0]};
@@ -32,5 +32,5 @@ void counting_sort(int *array, size_t size) {
     }
 }
 ```
-# Time Complexity
+## Time Complexity
 Time Complexity: O(N+M), where N and M are the size of array[] and count_array[] respectively.
