@@ -9,7 +9,7 @@
 - [Quick Sort](QuickSort) 
 - Heap Sort
 - [Binary Search](BinarySearch) 
-- Breadth First Search (BFS)
+- [Breadth First Search (BFS)](DFS)
 - Depth First Search (DFS)
 - Kruskal’s Algorithm
 - Floyd Warshall Algorithm
