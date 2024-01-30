@@ -7,7 +7,9 @@ A queue is a data structure that inserts elements into the end of the queue and 
 Inserting an element into an empty queue will insert it into the first element.
 
 add `100` to queue: `[ 100 ]`
-add '200` to queue: `[ 100, 200 ]`
+
+add `200` to queue: `[ 100, 200 ]`
+
 add `300` to queue: `[ 100, 200, 300 ]`
 
 Each element is inserted into the end of the array. 
