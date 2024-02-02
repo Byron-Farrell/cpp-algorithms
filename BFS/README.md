@@ -1,7 +1,7 @@
 # Breadth First Search
 
 ## Code Example
-**This BFS algorithm is for a full binary tree only**
+*This BFS algorithm is for a full binary tree only*
 
 ```c++
 void breadth_first_search(Node *node_ptr, std::queue<Node*> *queue_ptr) {
