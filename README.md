@@ -7,7 +7,7 @@
 - [Counting Sort](CountingSort) 
 - [Merge Sort](MergeSort) 
 - [Quick Sort](QuickSort) 
-- Heap Sort
+- [Heap Sort](HeapSort)
 - [Binary Search](BinarySearch) 
 - [Breadth First Search (BFS)](BFS)
 - [Depth First Search (DFS)](DFS)
