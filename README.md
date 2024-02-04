@@ -20,7 +20,7 @@
 - [Stack](Stack)
 - [Linked List](LinkedList)
 - [Binary Tree](BinaryTree)
-- Heap
+- [Heap](Heap)
 - Hash Table
 
 ---
