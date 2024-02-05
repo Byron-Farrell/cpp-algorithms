@@ -21,7 +21,7 @@
 - [Linked List](LinkedList)
 - [Binary Tree](BinaryTree)
 - [Heap](Heap)
-- Hash Table
+- [Hash Table](HashTable)
 
 ---
 
