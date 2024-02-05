@@ -3,7 +3,7 @@
 ## Code Example
 
 ### Hashing 
-Convert key into ASCII. In this example I convert the string into the sum of each characters ASCII value
+Convert key into ASCII. In this example, I convert the string into the sum of each characters ASCII value
 
 ```c++
 int HashTable::ascii_sum(std::string key) const {
@@ -28,6 +28,6 @@ size_t HashTable::hash(std::string key) const {
 }
 ```
 ### Collision
-Each element in the hash table array is a linked list. If there is an index collision during the hashing the key and value are added to the linked list.
+Each element in the hash table array is a linked list. If there is an index collision during the hashing the key and value are added to the linked list. The is collision handling method is known as chaining. 
 
 
