@@ -13,7 +13,7 @@
 - [Depth First Search (DFS)](DFS)
 - Kruskal’s Algorithm
 - Floyd Warshall Algorithm
-- Dijkstra’s Algorithm
+- [Dijkstra’s Algorithm](DijkstraAlgorithm)
   
 ### Data Structures
 - [Queue](Queue)
